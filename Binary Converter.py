@@ -8,7 +8,10 @@ def function():
 	try:
 
 		y=int(e.get())
-		print(bin(y))
+		
+		x= bin(y)
+		label = Label(root,text=x)
+		label.pack()
 	except ValueError:
 		print("Please Enter Number")
 
