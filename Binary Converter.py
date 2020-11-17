@@ -13,7 +13,8 @@ def function():
 		label = Label(root,text=x)
 		label.pack()
 	except ValueError:
-		print("Please Enter Number")
+		label = Label(root,text="Only Number Is Valid")
+		label.pack()
 
  
 
